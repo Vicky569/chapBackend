@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
 const generateToken = require("../config/generateToken");
-const User = require("../models/userModel");
+const User = require("../Models/userModel");
 
 const allUsers = asyncHandler(async (req, res) => {
   const keyword = req.query.search
