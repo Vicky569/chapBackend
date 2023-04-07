@@ -1,7 +1,7 @@
 const asyncHandler = require("express-async-handler");
-const Message = require("../Models/messagemodel");
-const User = require("../Models/usermodel");
-const Chat = require("../Models/chatmodel");
+const Message = require("../Models/messagemodel.js");
+const User = require("../Models/usermodel.js");
+const Chat = require("../Models/chatmodel.js");
 
 const allMessages = asyncHandler(async (req, res) => {
   try {
